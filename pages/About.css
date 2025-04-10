@@ -1,0 +1,63 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем элементы по горизонтали */
+  }
+  
+  .background {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 70px; /* Увеличиваем отступ между фото и текстом */
+}
+  
+  .background-image {
+    width: 100%;  /* Изображение будет растягиваться по ширине контейнера */
+    height: 100%;  /* Устанавливаем высоту 100% */
+    object-fit: contain;  /* Сохраняет пропорции изображения */
+    display: block;  /* Убирает отступы от изображения */
+    margin-left: auto;
+    margin-right: auto; /* Центрируем изображение по горизонтали */
+    opacity: 1.0;  /* Устанавливаем прозрачность изображения */
+  }
+  
+  .site-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Тень для текста */
+  }
+  
+  .content {
+    padding: 20px;
+    background-color: white;
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 70px; /* Добавляем отступ снизу */
+}
+
+  /* Контейнер для кнопок */
+.nav-buttons {
+    display: flex;
+    justify-content: flex-start; /* Расположим элементы слева */
+    gap: 30px;  /* Устанавливаем отступы между кнопками */
+  }
+  
+  .nav-buttons a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-buttons a:hover {
+    text-decoration: underline; /* Подчеркнуты при наведении */
+  }
+  
+  
